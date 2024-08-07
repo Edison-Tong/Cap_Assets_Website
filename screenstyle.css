@@ -125,10 +125,20 @@ h1 {
 .faq {
   border: none;
   background-color: inherit;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor:pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
   display: inline-block;
+  text-align: left;
+}
+
+.answerTitle {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.answers {
+  font-size: 12px;
 }
 
 .faq:hover {
@@ -136,7 +146,7 @@ h1 {
 }
 
 .answers {
-  display: none
+  display: none;
 }
 
 .midmainfull {
