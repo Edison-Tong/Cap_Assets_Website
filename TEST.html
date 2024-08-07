@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link href="images/favicon.ico" rel="shortcut icon" />
+	<title>Capital Assets Utah Valley / FAQs</title>
+	<link href="screenstyle.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://my-mobilewebamerica.com//mobilizejs.php?ver=0.4"></script>
+<script type="text/javascript">
+SA.redirection_mobile ({
+mobile_url : "m.capitalassetsutahvalley.powered.mobi"
+});
+</script>
+
+</head>
+<body>
+<div class="container">
+<div class="left"></div>
+
+<div class="middle">
+<div class="topleft"><a href="index.html"><img align="left" alt="Capital Assets home logo link" border="0" height="158" src="images/topleftbgrnd.jpg" width="207" /></a></div>
+
+<div class="topright"></div>
+
+<div>
+<ul class="navbar">
+	<li><a class="nav" href="index.html">Home (UC)</a></li>
+	<li><a class="nav" href="about.html">About Us</a></li>
+	<li><a class="nav" href="apply.html">Apply Now</a></li>
+	<li><a class="nav" href="calculator.html">Calculator</a></li>
+	<li><a class="nav" href="monitor.html">Market Monitor</a></li>
+	<li><a class="nav" href="faq.html">FAQ&#39;s (UC)</a></li>
+	<li><a class="nav" href="feedback.html">Feedback</a></li>
+	<li><a class="nav" href="faq_span.html">English/Espa&ntilde;ol</a></li>
+</ul>
+</div>
+
+<div class="gradbar"></div>
+
+<div class="midleft"><img alt="Capital Assets Ad" border="0" height="284" src="images/CapAssetsAd.jpg" width="164" /></div>
+
+<div class="midmain">
+	<ul>
+		<li><button class="faq" id="question1" onclick="displayAnswer(event)">Question 1</button></li>
+		<li><button class="faq" id="question2" onclick="displayAnswer(event)">Question 2</button></li>
+		<li><button class="faq" id="question3" onclick="displayAnswer(event)">Question 3</button></li>
+		<li><button class="faq" id="question4" onclick="displayAnswer(event)">Question 4</button></li>
+		<li><button class="faq" id="question5" onclick="displayAnswer(event)">Question 5</button></li>
+		<li><button class="faq" id="question6" onclick="displayAnswer(event)">Question 6</button></li>
+		<li><button class="faq" id="question7" onclick="displayAnswer(event)">Question 7</button></li>
+	</ul>
+	<p class="answers" id="answer1">Answer to question 1</p>
+	<p class="answers" id="answer2">Answer to question 2</p>
+	<p class="answers" id="answer3">Answer to question 3</p>
+	<p class="answers" id="answer4">Answer to question 4</p>
+	<p class="answers" id="answer5">Answer to question 5</p>
+	<p class="answers" id="answer6">Answer to question 6</p>
+	<p class="answers" id="answer7">Answer to question 7</p>
+	
+</div>
+
+<div class="midright"><embed height="448" pluginspage="http://www.adobe.com/shockwave/download/" src="images/thankyou_slides.swf" width="120"></embed></div>
+
+<div class="midbtm">Capital Assets Utah Valley, Inc. | NMLS 3127<br />
+2696 North University Ave. Suite 236 Provo Utah, 84604<br />
+Tel&nbsp;800-817-4767 &bull; Fax 801.370.9880 &bull;&nbsp;Copyright &copy; 2017</div>
+</div>
+
+<div class="right"></div>
+</div>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53328908-1', 'auto');
+  ga('send', 'pageview');
+
+	// function displayAnswer () {
+	// 	var x = document.getElementById("question1");
+  // if (x.style.display === "none") {
+  //   x.style.display = "block";
+  // } else {
+  //   x.style.display = "none";
+  // }
+	// }
+
+	function displayAnswer(event) {
+		console.log(event.target.id.split("")[event.target.id.split("").length - 1])
+		let questionID = event.target.id.split("")[event.target.id.split("").length - 1]
+		console.log(typeof(questionID))
+
+		if(questionID == 1) {
+			$(".answers").css("display", "none")
+			$("#answer1").css("display", "block")
+		} else if (questionID == 2) {
+			$(".answers").css("display", "none")
+			$("#answer2").css("display", "block")
+		} else if (questionID == 3) {
+			$(".answers").css("display", "none")
+			$("#answer3").css("display", "block")
+		} else if (questionID == 4) {
+			$(".answers").css("display", "none")
+			$("#answer4").css("display", "block")
+		} else if (questionID == 5) {
+			$(".answers").css("display", "none")
+			$("#answer5").css("display", "block")
+		} else if (questionID == 6) {
+			$(".answers").css("display", "none")
+			$("#answer6").css("display", "block")
+		} else if (questionID == 7) {
+			$(".answers").css("display", "none")
+			$("#answer7").css("display", "block")
+		}
+	}
+
+</script>

@@ -122,6 +122,23 @@ h1 {
   overflow: auto;
 }
 
+.faq {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor:pointer;
+  display: inline-block;
+}
+
+.faq:hover {
+  background: #eee;
+}
+
+.answers {
+  display: none
+}
+
 .midmainfull {
   width: 590px;
   height: 500px;
