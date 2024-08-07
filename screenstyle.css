@@ -1,0 +1,365 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana, arial, sans-serif;
+  font-size: 70%;
+  color: #000000;
+  text-align: center;
+  background-color: #330000;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 110%;
+  font-weight: bold;
+  font-style: normal;
+  color: #330000;
+  font-family: verdana, arial, sans-serif;
+}
+
+.req {
+  display: inline;
+  vertical-align: bottom;
+}
+
+.container {
+  padding: 0;
+  width: 900px;
+  position: relative;
+  height: 800px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.middle {
+  background-color: #ffffff;
+  float: left;
+  height: 800px;
+  width: 840px;
+}
+
+.topleft {
+  height: 161px;
+  width: 210px;
+  float: left;
+  background-color: #330000;
+  position: static;
+}
+
+.topright {
+  background-color: #330000;
+  height: 161px;
+  width: 630px;
+  float: left;
+  background-image: url(images/toprtbgrnd.jpg);
+  background-repeat: no-repeat;
+  position: static;
+}
+
+.left {
+  height: 800px;
+  width: 30px;
+  float: left;
+  padding: 0px;
+  background-repeat: repeat-y;
+  background-image: url(images/dropbacklft.gif);
+}
+
+.right {
+  height: 800px;
+  width: 30px;
+  padding: 0px;
+  float: left;
+  background-image: url(images/dropbackrt.gif);
+  background-repeat: repeat-y;
+}
+
+.gradbar {
+  width: 840px;
+  height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: none;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-image: url(images/dropbackbtm.gif);
+  background-repeat: repeat-x;
+}
+
+.midleft {
+  width: 172px;
+  height: 400px;
+  float: left;
+  border-right-width: thin;
+  border-right-style: solid;
+  border-right-color: #000000;
+  text-align: left;
+  padding-top: 0px;
+  padding-right: 18px;
+  padding-bottom: 0px;
+  padding-left: 18px;
+  color: #330000;
+  font-style: oblique;
+}
+
+.midmain {
+  width: 445px;
+  height: 500px;
+  float: left;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  text-align: left;
+  overflow: auto;
+}
+
+.midmainfull {
+  width: 590px;
+  height: 500px;
+  float: left;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  text-align: left;
+  overflow: auto;
+}
+
+.midright {
+  width: 120px;
+  height: 474px;
+  float: left;
+  text-align: left;
+  padding-top: 26px;
+  padding-right: 17px;
+  padding-bottom: 0px;
+  padding-left: 18px;
+  color: #330000;
+  font-style: oblique;
+}
+
+a:link,
+a:visited {
+  color: #330000;
+  text-decoration: underline;
+}
+a:hover {
+  color: #330000;
+  text-decoration: none;
+}
+a:active {
+  color: #330000;
+  text-decoration: underline;
+}
+
+ul.navbar {
+  background-color: #330000;
+  height: 28px;
+  width: 840px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: none;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+ul.navbar li {
+  display: inline;
+}
+
+a.nav:link,
+a.nav:visited {
+  display: block;
+  float: left;
+  width: 105px;
+  height: 20px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #330000;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
+}
+
+a.nav:hover {
+  display: block;
+  float: left;
+  width: 105px;
+  height: 20px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #cccccc;
+  color: #330000;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
+}
+
+a.nav:active {
+  display: block;
+  float: left;
+  width: 105px;
+  height: 20px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #330000;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
+}
+
+.midbtm {
+  background-color: #ffffff;
+  height: 60px;
+  width: 840px;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+ul.formlist_full {
+  text-decoration: none;
+  text-align: left;
+  list-style-type: disc;
+  width: 390px;
+  float: none;
+  padding-left: 3em;
+  margin: 0px;
+  height: auto;
+  list-style-position: inside;
+  text-indent: -1.2em;
+}
+
+ul.formlinkbox {
+  background-color: #ffffff;
+  height: 150px;
+  width: 445px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: none;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  list-style-type: decimal;
+}
+
+ul.formlinkbox li {
+  display: inline;
+}
+
+.formbox {
+  text-align: left;
+  width: 445px;
+  float: none;
+  margin: 0px;
+  height: 186px;
+  padding: 0px;
+}
+
+.termbox {
+  text-align: left;
+  width: 445px;
+  float: none;
+  margin: 0px;
+  height: 100px;
+  padding: 0px;
+}
+
+.monitorbox {
+  text-align: left;
+  width: 445px;
+  float: none;
+  margin: 0px;
+  height: 60px;
+  padding: 0px;
+}
+
+a.form:link,
+a.form:visited {
+  display: block;
+  float: left;
+  width: 222px;
+  height: 28px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #330000;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
+}
+
+a.form:hover {
+  display: block;
+  float: left;
+  width: 222px;
+  height: 28px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #cccccc;
+  color: #330000;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
+}
+
+a.form:active {
+  display: block;
+  float: left;
+  width: 222px;
+  height: 28px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #330000;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
+}
+
+ul.datelist {
+  text-decoration: none;
+  text-align: left;
+  list-style-type: none;
+  width: 128px;
+  float: left;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin: 0px;
+  height: auto;
+}
+
+.datebar {
+  width: 445px;
+  height: 20px;
+  float: left;
+  padding-top: 8px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-align: left;
+  font-weight: bold;
+}
