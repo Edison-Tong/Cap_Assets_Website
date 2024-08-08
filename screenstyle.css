@@ -126,13 +126,32 @@ h1 {
     float: right;
 }
 
+.shapes {
+    cursor: pointer;
+}
+
+#integrityImage:hover {
+}
+
+#expertiseImage:hover {
+}
+
+#serviceImage:hover {
+}
+
+#consistencyImage:hover {
+}
+
+#programsImage:hover {
+}
+
 .label {
     font-weight: bold;
     font-size: 14px;
 }
 
 .label:first-of-type {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 #integrityLabel {
@@ -157,6 +176,11 @@ h1 {
 
 .definition {
     display: none;
+    padding-top: 50px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .faq {
