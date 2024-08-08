@@ -155,6 +155,10 @@ h1 {
     color: rgb(145, 146, 90);
 }
 
+.definition {
+    display: none;
+}
+
 .faq {
     list-style-type: square;
     color: maroon;
