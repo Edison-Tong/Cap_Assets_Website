@@ -126,8 +126,33 @@ h1 {
     float: right;
 }
 
+.label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
 .label:first-of-type {
     padding-top: 50px;
+}
+
+#integrityLabel {
+    color: rgb(153, 0, 2);
+}
+
+#expertiseLabel {
+    color: rgb(214, 255, 127);
+}
+
+#serviceLabel {
+    color: rgb(51, 102, 153);
+}
+
+#consistencyLabel {
+    color: rgb(203, 135, 28);
+}
+
+#programsLabel {
+    color: rgb(145, 146, 90);
 }
 
 .faq {
