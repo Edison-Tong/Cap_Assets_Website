@@ -123,7 +123,11 @@ h1 {
 }
 
 .puzzleImage {
-    float: center;
+    float: right;
+}
+
+.label:first-of-type {
+    padding-top: 50px;
 }
 
 .faq {
