@@ -123,6 +123,11 @@ h1 {
 }
 
 .faq {
+    list-style-type: square;
+    color: maroon;
+}
+
+.question {
     border: none;
     background-color: inherit;
     padding: 5px 10px;
@@ -130,6 +135,7 @@ h1 {
     cursor: pointer;
     display: inline-block;
     text-align: left;
+    color: maroon;
 }
 
 .answerTitle {
@@ -142,16 +148,16 @@ h1 {
     font-size: 12px;
 }
 
-.thankYouAuthor {
-    font-weight: bold;
-}
-
-.faq:hover {
-    background: #eee;
+.question:hover {
+    color: red;
 }
 
 .answers {
     display: none;
+}
+
+.thankYouAuthor {
+    font-weight: bold;
 }
 
 .midmainfull {
