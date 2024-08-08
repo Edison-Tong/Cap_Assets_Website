@@ -122,6 +122,10 @@ h1 {
     overflow: auto;
 }
 
+.puzzleImage {
+    float: center;
+}
+
 .faq {
     list-style-type: square;
     color: maroon;
