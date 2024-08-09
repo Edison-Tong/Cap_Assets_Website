@@ -169,6 +169,11 @@ h1 {
   outline: inherit;
 }
 
+#instructions {
+  padding-right: 50px;
+  float: right;
+}
+
 .definition {
   display: none;
   padding-top: 50px;
@@ -214,6 +219,14 @@ h1 {
 
 .thankYouAuthor {
   font-weight: bold;
+}
+
+.thankYouSlides {
+  display: none;
+}
+
+.thankYouSlides:first-of-type {
+  display: block;
 }
 
 .midmainfull {
