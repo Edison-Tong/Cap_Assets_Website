@@ -5,10 +5,10 @@
         <link href="images/favicon.ico" rel="shortcut icon" />
         <title>Capital Assets Utah Valley / FAQs</title>
         <link href="screenstyle.css" rel="stylesheet" type="text/css" />
-        <script
+        <!-- <script
             type="text/javascript"
             src="http://my-mobilewebamerica.com//mobilizejs.php?ver=0.4"
-        ></script>
+        ></script> -->
         <script type="text/javascript">
             SA.redirection_mobile({
                 mobile_url: "m.capitalassetsutahvalley.powered.mobi",
@@ -430,52 +430,20 @@
 
     function displayAnswer(event) {
         let questionID =
-            event.target.id.split("")[event.target.id.split("").length - 1];
-        for (let i = 0; i < 9; i++) {
-            if (i == questionID) {
+            event.target.id[event.target.id.length - 1];
                 $(".answers").css("display", "none");
-                $(`#answer${i}`).css("display", "block");
-                break;
-            }
-        }
+                $(`#answer${questionID}`).css("display", "block");
     }
-
-    // function displayAnswer(event) {
-    //     let questionID =
-    //         event.target.id.split("")[event.target.id.split("").length - 1];
-    //     if (questionID == 1) {
-    //         $(".answers").css("display", "none");
-    //         $("#answer1").css("display", "block");
-    //     } else if (questionID == 2) {
-    //         $(".answers").css("display", "none");
-    //         $("#answer2").css("display", "block");
-    //     } else if (questionID == 3) {
-    //         $(".answers").css("display", "none");
-    //         $("#answer3").css("display", "block");
-    //     } else if (questionID == 4) {
-    //         $(".answers").css("display", "none");
-    //         $("#answer4").css("display", "block");
-    //     } else if (questionID == 5) {
-    //         $(".answers").css("display", "none");
-    //         $("#answer5").css("display", "block");
-    //     } else if (questionID == 6) {
-    //         $(".answers").css("display", "none");
-    //         $("#answer6").css("display", "block");
-    //     } else if (questionID == 7) {
-    //         $(".answers").css("display", "none");
-    //         $("#answer7").css("display", "block");
-    //     }
-    //
 
     let slideIndex = 0;
     function showSlides() {
-        let i;
-        let slides = $(".thankYouSlides");
-		let slideAuthor = $(".thankYouAuthor")
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-			slideAuthor[i].style.display = "none"
-        }
+        console.log(slideIndex)
+        let slides = $(".thankYouSlides").css("display", "none");
+		let slideAuthor = $(".thankYouAuthor").css("display", "none")
+        // for (i = 0; i < slides.length; i++) {
+        //     slides[i].style.display = "none";
+		// 	slideAuthor[i].style.display = "none"
+        // }
         slideIndex++;
         if (slideIndex > slides.length) {
             slideIndex = 1;
@@ -483,8 +451,7 @@
 
         slides[slideIndex - 1].style.display = "block";
 		slideAuthor[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 2000);
     }
 
-    showSlides();
+    setInterval(showSlides, 2000);
 </script>
