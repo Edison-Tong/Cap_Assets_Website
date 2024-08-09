@@ -2,463 +2,448 @@
 /* CSS Document */
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: verdana, arial, sans-serif;
-    font-size: 70%;
-    color: #000000;
-    text-align: center;
-    background-color: #330000;
+  margin: 0;
+  padding: 0;
+  font-family: verdana, arial, sans-serif;
+  font-size: 70%;
+  color: #000000;
+  text-align: center;
+  background-color: #330000;
 }
 
 h1 {
-    padding: 0;
-    margin: 0;
-    font-size: 110%;
-    font-weight: bold;
-    font-style: normal;
-    color: #330000;
-    font-family: verdana, arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 110%;
+  font-weight: bold;
+  font-style: normal;
+  color: #330000;
+  font-family: verdana, arial, sans-serif;
 }
 
 .req {
-    display: inline;
-    vertical-align: bottom;
+  display: inline;
+  vertical-align: bottom;
 }
 
 .container {
-    padding: 0;
-    width: 900px;
-    position: relative;
-    height: 800px;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
+  padding: 0;
+  width: 900px;
+  position: relative;
+  height: 800px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
 }
 
 .middle {
-    background-color: #ffffff;
-    float: left;
-    height: 800px;
-    width: 840px;
+  background-color: #ffffff;
+  float: left;
+  height: 800px;
+  width: 840px;
 }
 
 .topleft {
-    height: 161px;
-    width: 210px;
-    float: left;
-    background-color: #330000;
-    position: static;
+  height: 161px;
+  width: 210px;
+  float: left;
+  background-color: #330000;
+  position: static;
 }
 
 .topright {
-    background-color: #330000;
-    height: 161px;
-    width: 630px;
-    float: left;
-    background-image: url(images/toprtbgrnd.jpg);
-    background-repeat: no-repeat;
-    position: static;
+  background-color: #330000;
+  height: 161px;
+  width: 630px;
+  float: left;
+  background-image: url(images/toprtbgrnd.jpg);
+  background-repeat: no-repeat;
+  position: static;
 }
 
 .left {
-    height: 800px;
-    width: 30px;
-    float: left;
-    padding: 0px;
-    background-repeat: repeat-y;
-    background-image: url(images/dropbacklft.gif);
+  height: 800px;
+  width: 30px;
+  float: left;
+  padding: 0px;
+  background-repeat: repeat-y;
+  background-image: url(images/dropbacklft.gif);
 }
 
 .right {
-    height: 800px;
-    width: 30px;
-    padding: 0px;
-    float: left;
-    background-image: url(images/dropbackrt.gif);
-    background-repeat: repeat-y;
+  height: 800px;
+  width: 30px;
+  padding: 0px;
+  float: left;
+  background-image: url(images/dropbackrt.gif);
+  background-repeat: repeat-y;
 }
 
 .gradbar {
-    width: 840px;
-    height: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    clear: none;
-    float: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-    background-image: url(images/dropbackbtm.gif);
-    background-repeat: repeat-x;
+  width: 840px;
+  height: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: none;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-image: url(images/dropbackbtm.gif);
+  background-repeat: repeat-x;
 }
 
 .midleft {
-    width: 172px;
-    height: 400px;
-    float: left;
-    border-right-width: thin;
-    border-right-style: solid;
-    border-right-color: #000000;
-    text-align: left;
-    padding-top: 0px;
-    padding-right: 18px;
-    padding-bottom: 0px;
-    padding-left: 18px;
-    color: #330000;
-    font-style: oblique;
+  width: 172px;
+  height: 400px;
+  float: left;
+  border-right-width: thin;
+  border-right-style: solid;
+  border-right-color: #000000;
+  text-align: left;
+  padding-top: 0px;
+  padding-right: 18px;
+  padding-bottom: 0px;
+  padding-left: 18px;
+  color: #330000;
+  font-style: oblique;
 }
 
 .midmain {
-    width: 445px;
-    height: 500px;
-    float: left;
-    padding-top: 0px;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    text-align: left;
-    overflow: auto;
+  width: 445px;
+  height: 500px;
+  float: left;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  text-align: left;
+  overflow: auto;
 }
 
 .puzzleImage {
-    float: right;
+  float: right;
 }
 
 .shapes {
-    cursor: pointer;
-}
-
-#integrityImage:hover {
-}
-
-#expertiseImage:hover {
-}
-
-#serviceImage:hover {
-}
-
-#consistencyImage:hover {
-}
-
-#programsImage:hover {
+  cursor: pointer;
 }
 
 .label {
-    font-weight: bold;
-    font-size: 14px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .label:first-of-type {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 #integrityLabel {
-    color: rgb(153, 0, 2);
+  color: rgb(153, 0, 2);
 }
 
 #expertiseLabel {
-    color: rgb(214, 255, 127);
+  color: rgb(214, 255, 127);
 }
 
 #serviceLabel {
-    color: rgb(51, 102, 153);
+  color: rgb(51, 102, 153);
 }
 
 #consistencyLabel {
-    color: rgb(203, 135, 28);
+  color: rgb(203, 135, 28);
 }
 
 #programsLabel {
-    color: rgb(145, 146, 90);
+  color: rgb(145, 146, 90);
 }
 
 .definition {
-    display: none;
-    padding-top: 50px;
+  display: none;
+  padding-top: 50px;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .faq {
-    list-style-type: square;
-    color: maroon;
+  list-style-type: square;
+  color: maroon;
 }
 
 .question {
-    border: none;
-    background-color: inherit;
-    padding: 5px 10px;
-    font-size: 14px;
-    cursor: pointer;
-    display: inline-block;
-    text-align: left;
-    color: maroon;
+  border: none;
+  background-color: inherit;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: left;
+  color: maroon;
 }
 
 .answerTitle {
-    font-weight: bold;
-    font-size: 14px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .answers {
-    padding-top: 20px;
-    font-size: 12px;
+  padding-top: 20px;
+  font-size: 12px;
 }
 
 .question:hover {
-    color: red;
+  color: red;
 }
 
 .answers {
-    display: none;
+  display: none;
 }
 
 .thankYouAuthor {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .midmainfull {
-    width: 590px;
-    height: 500px;
-    float: left;
-    padding-top: 0px;
-    padding-right: 5px;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    text-align: left;
-    overflow: auto;
+  width: 590px;
+  height: 500px;
+  float: left;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  text-align: left;
+  overflow: auto;
 }
 
 .midright {
-    width: 120px;
-    height: 474px;
-    float: left;
-    text-align: left;
-    padding-top: 26px;
-    padding-right: 17px;
-    padding-bottom: 0px;
-    padding-left: 18px;
-    color: #330000;
-    font-style: oblique;
+  width: 120px;
+  height: 474px;
+  float: left;
+  text-align: left;
+  padding-top: 26px;
+  padding-right: 17px;
+  padding-bottom: 0px;
+  padding-left: 18px;
+  color: #330000;
+  font-style: oblique;
 }
 
 a:link,
 a:visited {
-    color: #330000;
-    text-decoration: underline;
+  color: #330000;
+  text-decoration: underline;
 }
 a:hover {
-    color: #330000;
-    text-decoration: none;
+  color: #330000;
+  text-decoration: none;
 }
 a:active {
-    color: #330000;
-    text-decoration: underline;
+  color: #330000;
+  text-decoration: underline;
 }
 
 ul.navbar {
-    background-color: #330000;
-    height: 28px;
-    width: 840px;
-    margin-right: auto;
-    margin-left: auto;
-    clear: none;
-    float: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
+  background-color: #330000;
+  height: 28px;
+  width: 840px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: none;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
 ul.navbar li {
-    display: inline;
+  display: inline;
 }
 
 a.nav:link,
 a.nav:visited {
-    display: block;
-    float: left;
-    width: 105px;
-    height: 20px;
-    margin: 0;
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #330000;
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-bottom: 0;
-    padding-left: 0px;
+  display: block;
+  float: left;
+  width: 105px;
+  height: 20px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #330000;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
 }
 
 a.nav:hover {
-    display: block;
-    float: left;
-    width: 105px;
-    height: 20px;
-    margin: 0;
-    text-decoration: none;
-    background-color: #cccccc;
-    color: #330000;
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-bottom: 0;
-    padding-left: 0px;
+  display: block;
+  float: left;
+  width: 105px;
+  height: 20px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #cccccc;
+  color: #330000;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
 }
 
 a.nav:active {
-    display: block;
-    float: left;
-    width: 105px;
-    height: 20px;
-    margin: 0;
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #330000;
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-bottom: 0;
-    padding-left: 0px;
+  display: block;
+  float: left;
+  width: 105px;
+  height: 20px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #330000;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
 }
 
 .midbtm {
-    background-color: #ffffff;
-    height: 60px;
-    width: 840px;
-    float: left;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 20px;
+  background-color: #ffffff;
+  height: 60px;
+  width: 840px;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
 }
 
 ul.formlist_full {
-    text-decoration: none;
-    text-align: left;
-    list-style-type: disc;
-    width: 390px;
-    float: none;
-    padding-left: 3em;
-    margin: 0px;
-    height: auto;
-    list-style-position: inside;
-    text-indent: -1.2em;
+  text-decoration: none;
+  text-align: left;
+  list-style-type: disc;
+  width: 390px;
+  float: none;
+  padding-left: 3em;
+  margin: 0px;
+  height: auto;
+  list-style-position: inside;
+  text-indent: -1.2em;
 }
 
 ul.formlinkbox {
-    background-color: #ffffff;
-    height: 150px;
-    width: 445px;
-    margin-right: auto;
-    margin-left: auto;
-    clear: none;
-    float: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-    list-style-type: decimal;
+  background-color: #ffffff;
+  height: 150px;
+  width: 445px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: none;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  list-style-type: decimal;
 }
 
 ul.formlinkbox li {
-    display: inline;
+  display: inline;
 }
 
 .formbox {
-    text-align: left;
-    width: 445px;
-    float: none;
-    margin: 0px;
-    height: 186px;
-    padding: 0px;
+  text-align: left;
+  width: 445px;
+  float: none;
+  margin: 0px;
+  height: 186px;
+  padding: 0px;
 }
 
 .termbox {
-    text-align: left;
-    width: 445px;
-    float: none;
-    margin: 0px;
-    height: 100px;
-    padding: 0px;
+  text-align: left;
+  width: 445px;
+  float: none;
+  margin: 0px;
+  height: 100px;
+  padding: 0px;
 }
 
 .monitorbox {
-    text-align: left;
-    width: 445px;
-    float: none;
-    margin: 0px;
-    height: 60px;
-    padding: 0px;
+  text-align: left;
+  width: 445px;
+  float: none;
+  margin: 0px;
+  height: 60px;
+  padding: 0px;
 }
 
 a.form:link,
 a.form:visited {
-    display: block;
-    float: left;
-    width: 222px;
-    height: 28px;
-    margin: 0;
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #330000;
-    padding-top: 3px;
-    padding-right: 0px;
-    padding-bottom: 0;
-    padding-left: 0px;
+  display: block;
+  float: left;
+  width: 222px;
+  height: 28px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #330000;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
 }
 
 a.form:hover {
-    display: block;
-    float: left;
-    width: 222px;
-    height: 28px;
-    margin: 0;
-    text-decoration: none;
-    background-color: #cccccc;
-    color: #330000;
-    padding-top: 3px;
-    padding-right: 0px;
-    padding-bottom: 0;
-    padding-left: 0px;
+  display: block;
+  float: left;
+  width: 222px;
+  height: 28px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #cccccc;
+  color: #330000;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
 }
 
 a.form:active {
-    display: block;
-    float: left;
-    width: 222px;
-    height: 28px;
-    margin: 0;
-    text-decoration: none;
-    background-color: #ffffff;
-    color: #330000;
-    padding-top: 3px;
-    padding-right: 0px;
-    padding-bottom: 0;
-    padding-left: 0px;
+  display: block;
+  float: left;
+  width: 222px;
+  height: 28px;
+  margin: 0;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #330000;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-bottom: 0;
+  padding-left: 0px;
 }
 
 ul.datelist {
-    text-decoration: none;
-    text-align: left;
-    list-style-type: none;
-    width: 128px;
-    float: left;
-    padding-top: 10px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    margin: 0px;
-    height: auto;
+  text-decoration: none;
+  text-align: left;
+  list-style-type: none;
+  width: 128px;
+  float: left;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin: 0px;
+  height: auto;
 }
 
 .datebar {
-    width: 445px;
-    height: 20px;
-    float: left;
-    padding-top: 8px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    text-align: left;
-    font-weight: bold;
+  width: 445px;
+  height: 20px;
+  float: left;
+  padding-top: 8px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-align: left;
+  font-weight: bold;
 }
